@@ -290,7 +290,13 @@ export default function Home() {
             <a href="https://github.com/Samdevrel/gas-fee-optimizer" className="text-gray-400 hover:underline">Source Code</a>
             {' • '}
             Gas prices are simulated for demo purposes
-          </p>
+          <button
+            onClick={() => window.location.href = '/docs/overview'}
+            className="w-full py-4 bg-purple-500 text-white font-bold border-4 border-purple-400 hover:bg-purple-400 mb-4"
+          >
+            {buttonText}
+          </button>
+                    </p>
         </footer>
       </div>
     </main>
